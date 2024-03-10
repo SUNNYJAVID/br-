@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16), 2px 10px 0 rgba(0, 0, 0 , 0.12);
+}
+main {
+    flex: 1 0 auto;
+}
+#sunny-img {
+    background-image: url(asstes/images/architect.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#br-words {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#sunny-img h1{
+    font-size: 50px;
+}

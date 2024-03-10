@@ -1,0 +1,6 @@
+#img-fluid{
+    background-image: url(asstes/images/architect.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
